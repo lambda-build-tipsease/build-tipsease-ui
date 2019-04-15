@@ -1,2 +1,3 @@
 # build-tipsease-ui-Hugo-Martinez
-Monday= Start to work on the HTML structure and design
+Monday:git commit Research for pictures, and data tools for the design
+Start to work on the HTML structure and design
