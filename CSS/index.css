@@ -445,6 +445,41 @@ img {
 }
 }
 
+.about-us{
+  display: block;
+  width: 80%;
+  margin: 5px auto;  
+  text-align: flex-start;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.title{
+  background-color: #5bc0be;
+  border-radius: 10px;
+}
+.about-us h1{
+  padding-top: 20px;
+  width: 100%;
+  margin: 5px auto;
+  text-align:center;
+}
+h2 {
+  padding-bottom: 2%;
+  margin: 1%;
+
+}
+h3{
+  padding-bottom: 2%;
+  margin: 1%;
+}
+.about-us p{
+  display: block;
+  width: 90%;
+  margin: 5% auto;  
+  text-align: flex-start;
+  padding-top: 20px;
+  margin-top: 20px;
+}
 
 .logo{
   width:100px;
