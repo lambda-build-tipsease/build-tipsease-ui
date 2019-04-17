@@ -1,11 +1,6 @@
 body {
-    font-family: Roboto;
+    font-family: 'ubuntu', 'sans-serif';
     background: #5bc0be;
-    /* fallback for old browsers
-    background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-    Chrome 10-25, Safari 5.1-6
-    background: linear-gradient(to left, #8E0E00, #1F1C18);
-    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
   } 
   img{
       max-width: 15%;
@@ -40,9 +35,9 @@ body {
     padding-left: 20px;
   }
   
-  form input[type="text"] {
+  /* form input[type="text"] {
     width:90px;
-  }
+  } */
   
   input {
     padding-left: 20px;
@@ -51,7 +46,7 @@ body {
   
   #billamt:focus {
     background: #fff;
-    border: 3px solid #2980b9;
+    border: 3px solid #5bc0be;
     outline: none;
   }
   
@@ -59,8 +54,7 @@ body {
     width: 60%;
     padding: 5px 5px 8px 8px;
     margin-left: 20px;
-    /* color: #red; */
-    /* background-color: #f7f7f7; */
+
     font-size: 14px;
   }
   
