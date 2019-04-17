@@ -236,6 +236,15 @@ h1{
   height: auto;
   margin: 5px auto;
   padding-top: 40px;  
+  -webkit-transition: width 2s, height 2s;
+  
+}
+.img-top:hover{
+  width: 50%;
+  height: auto;
+}
+#tip-img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 
 .mid-content{
@@ -261,6 +270,12 @@ h1{
   height: auto;
   margin: 5px auto;
   padding-top: 40px;  
+  -webkit-transition: width 2s, height 2s;
+}
+
+.img-mid:hover{
+  width: 50%;
+  height: auto;
 }
 
 .phone-content{
@@ -279,7 +294,13 @@ h1{
   position: relative;
   width: 45%;
   height: auto;
-  margin: 5px auto;
+  margin: 5px auto; 
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+}
+.img-phone:hover{
+  -webkit-transform: rotateY(180deg);
+  transform: rotate(360deg);
 }
 
 .about-us{
@@ -331,8 +352,13 @@ h3{
   border-radius: 10px;  
   max-width: 100%;
   max-height: 100%;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
 }
-
+.logo:hover{
+  -webkit-transform: rotateY(180deg);
+  transform: rotate(360deg);
+}
 
 footer {
   width: 100%;
