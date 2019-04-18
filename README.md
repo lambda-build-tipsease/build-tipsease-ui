@@ -1,5 +1,5 @@
 Tipsease Landing Page:
-Deployed at:
+Deployed at: https://laughing-hypatia-41db4a.netlify.com/
 
 Tipsease: Is an aplication build to facilitate the way customers and amployees , give and recive tips, without intermediaries.
 
