@@ -1,3 +1,4 @@
+
 Tipsease Landing Page:
 Deployed at: https://laughing-hypatia-41db4a.netlify.com/
 
@@ -19,3 +20,4 @@ Tip calculator:
 Acces to a function that calculates the tip you want according to the quality of the service.
 
 All pages are fully responsive to mibile version (500px), tablet version (800px).
+
