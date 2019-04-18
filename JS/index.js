@@ -13,7 +13,7 @@ for (i = 0; i < navigation.length; i++) {
 class Names{
     constructor(name) {
         this.name = name;
-        name.addEventListener('click', (event) => {
+        name.addEventListener('mouseover', (event) => {
           if(event.target.style.transform == 'scale(2)'){
             event.target.removeAttribute('style')
           }else{
