@@ -5,15 +5,16 @@ body {
   img{
       max-width: 15%;
       max-height: auto;
-      margin: auto;
+      margin: auto;     
   }
+
   
   #container {
     height: 520px;
     width: 360px;
     margin: 10px auto;
     background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -34,10 +35,6 @@ body {
   p {
     padding-left: 20px;
   }
-  
-  /* form input[type="text"] {
-    width:90px;
-  } */
   
   input {
     padding-left: 20px;
