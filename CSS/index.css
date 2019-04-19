@@ -199,6 +199,7 @@ img {
   align-items: center;
   justify-content: center;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 
 .nav a {
@@ -216,6 +217,7 @@ h1{
   padding-bottom: 20px;
   text-align: flex-start;
   padding-top: 20px;
+  text-shadow: 2px 2px 8px #6d6d6d;
 }
 .top-content{
   display: flex;
@@ -269,8 +271,10 @@ h1{
   width: 45%;
   height: auto;
   margin: 5px auto;
+  border-radius: 50%;
   padding-top: 40px;  
   -webkit-transition: width 2s, height 2s;
+  
 }
 
 .img-mid:hover{
@@ -316,6 +320,7 @@ h1{
   padding-top: 20px;
   width: 100%;
   text-align:center;
+  text-shadow: 2px 2px 8px black;
 }
 h2 {
   padding-bottom: 2%;
